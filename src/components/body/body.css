@@ -33,3 +33,39 @@
 .btn-dwn:hover {
   background-color: #ff308a;
 }
+
+@media (max-width: 375px) {
+    .main {
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+        height: 392px;
+        width: 340px;
+        padding: 0 10px;
+      }
+      .img {
+        height: 291px;
+        width: 304px;
+      }
+      .text-big {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .text-small {
+        font-size: 16px;
+        font-weight: 100;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+      }
+      .btn-dwn {
+        background-color: #ff006e;
+        color: white;
+        border: none;
+        margin-left: 100px;
+        padding: 10px 30px;
+        border-radius: 30px;
+        cursor: pointer;
+      }
+}

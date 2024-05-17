@@ -2,11 +2,12 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0 90px;
 }
 .food {
   margin: 0;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 48px;
   font-family: "Jaro", sans-serif;
   font-optical-sizing: auto;
@@ -29,8 +30,11 @@
     gap: 100px;
     padding: 0 30px;
   }
+  .food {
+    font-size: 20px;
+  }
 }
-@media (max-width: 375px) {
+@media (max-width: 320px) {
   .nav {
     gap: 70px;
     padding: 0 20px;
