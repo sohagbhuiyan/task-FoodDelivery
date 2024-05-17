@@ -1,0 +1,113 @@
+.background-container {
+  position: relative;
+  top: -25px;
+  height: 504px;
+  width: 1400px;
+  background-image: url("../../assets/1.png");
+  background-size: cover;
+  background-position: center;
+}
+.text-field {
+  position: relative;
+  top: 145px;
+  text-align: center;
+}
+.text {
+  color: #ffffff;
+  font-size: 48px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+}
+
+.btn {
+  position: relative;
+  left: 305px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  width: 818px;
+  height: 56px;
+  border-radius: 50px;
+  align-items: center;
+}
+.loc {
+  padding: 0 22px;
+}
+.label {
+  font-size: 18px;
+  padding: 0px 5px;
+}
+.rec {
+  padding: 0 10px;
+}
+.search {
+  padding: 10px 160px;
+  border: none;
+  outline: none;
+}
+.button {
+  border: none;
+  border-bottom-right-radius: 35px;
+  border-top-right-radius: 35px;
+  background-color: #ff006e;
+  color: #ffffff;
+  /* height: 56px;
+  width: 162px; */
+  font-size: 16px;
+  padding: 19px 53px;
+  cursor: pointer;
+
+}
+@media (max-width: 375px) {
+  .background-container {
+    background-size: cover;
+    width: 500px;
+    height: 390px;
+    top: -15px;
+  }
+  .text {
+    color: #ffffff;
+    font-size: 12px;
+    align-items: center;
+  }
+  .text-field {
+    top: 145px;
+    text-align: center;
+  }
+  .btn {
+    position: relative;
+    left: 5px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    width: 350px;
+    height: 45px;
+    border-radius: 50px;
+    align-items: center;
+  }
+  .loc {
+    padding: 0 2px;
+  }
+  .label {
+    font-size: 8px;
+    padding: 0px 5px;
+  }
+  .search {
+    padding: 0px 28px;
+    border: none;
+    outline: none;
+  }
+  .button {
+    border: none;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+    background-color: #ff006e;
+    color: #ffffff;
+    /* height: 56px;
+    width: 162px; */
+    font-size: 10px;
+    padding: 18px 20px;
+    cursor: pointer;
+  
+  }
+}
