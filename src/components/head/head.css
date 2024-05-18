@@ -1,9 +1,9 @@
 
 .background-container {
   position: relative;
-  top: -40px;
+  top: -48px;
   height: 504px;
-  width: 1400px;
+  width: 1349px;
   background-image: url("../../assets/1.png");
   background-size: cover;
   background-position: center;
@@ -70,7 +70,7 @@
   }
   .text {
     color: #ffffff;
-    font-size: 12px;
+    font-size: 16px;
     align-items: center;
   }
   .text-field {
@@ -83,7 +83,7 @@
     display: flex;
     align-items: center;
     background-color: #ffffff;
-    width: 350px;
+    width: 360px;
     height: 45px;
     border-radius: 50px;
     align-items: center;
@@ -107,7 +107,7 @@
     background-color: #ff006e;
     color: #ffffff;
     font-size: 10px;
-    padding: 18px 10px;
+    padding: 18px 18px;
     cursor: pointer;
   
   }
