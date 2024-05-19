@@ -22,7 +22,7 @@ const Resturant = () => {
         <div className="left1">
           <div className="indv">
             <img src={pic2} className="lef-pic" />
-            <div className=" ">
+            <div className="detal ">
               <p className="rname">Resturant name</p>
               <span className="span">
                 <p className="details">

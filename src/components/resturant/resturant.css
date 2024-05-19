@@ -1,5 +1,5 @@
 .containerr {
-  padding: 0 20px;
+  padding: 0 40px;
 }
 .textt {
   font-size: 19px;
@@ -10,7 +10,7 @@
 .titl {
   display: flex;
   justify-content: space-between;
-  padding: 0 35px;
+  padding: 0 3px;
 }
 .tir {
   font-size: 17px;

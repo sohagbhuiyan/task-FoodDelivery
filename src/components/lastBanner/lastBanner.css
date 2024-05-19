@@ -1,0 +1,181 @@
+.lb-contain {
+  padding: 50px;
+}
+.head {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.desc {
+  font-size: 18px;
+  text-align: center;
+  padding: 0 150px;
+}
+.lb-pos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.lb-banner {
+  align-items: center;
+  background-image: url("../../assets/lb.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 343px;
+  width: 608px;
+}
+.lb-img {
+  margin-top: -20px;
+  align-items: center;
+  padding: 50px 250px;
+}
+.lb-tit {
+  margin-top: -25px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #f8f9fa;
+  text-align: center;
+}
+.lb-red {
+  font-size: 18px;
+  color: #f40469;
+  font-weight: 700;
+  text-align: center;
+}
+.lb-logo {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 375px) {
+  .head {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .desc {
+    font-size: 15px;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .lb-pos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .lb-pos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .lb-banner {
+    align-items: center;
+    background-image: url("../../assets/lb.png");
+    background-repeat: no-repeat;
+    background-size: 95%;
+    height: 180px;
+    width: 300px;
+    border-radius: 15px;
+  }
+  .lb-img {
+    height: 40px;
+    margin-top: -30px;
+    align-items: center;
+    margin-left: -120px;
+  }
+  .lb-tit {
+    font-size: 12px;
+    font-weight: 500;
+    color: #f8f9fa;
+    text-align: center;
+  }
+  .lb-red {
+    margin-top: -20px;
+    font-size: 13px;
+    color: #f40469;
+    font-weight: 700;
+    text-align: center;
+  }
+  .lb-logo {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-left: 40px;
+  }
+  .desc {
+    font-size: 13px;
+    text-align: center;
+    padding: 0 10px;
+    margin-left: 40px;
+  }
+  .lb-pos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 70px;
+  }
+  .lb-pos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .lb-banner {
+    align-items: center;
+    background-image: url("../../assets/lb.png");
+    background-repeat: no-repeat;
+    background-size: 95%;
+    height: 180px;
+    width: 300px;
+    border-radius: 15px;
+  }
+  .lb-img {
+    height: 40px;
+    margin-top: -30px;
+    align-items: center;
+    margin-left: -120px;
+  }
+  .lb-tit {
+    font-size: 12px;
+    font-weight: 500;
+    color: #f8f9fa;
+    text-align: center;
+  }
+  .lb-red {
+    margin-top: -20px;
+    font-size: 13px;
+    color: #f40469;
+    font-weight: 700;
+    text-align: center;
+  }
+  .lb-logo {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

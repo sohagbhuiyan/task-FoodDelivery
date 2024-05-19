@@ -1,11 +1,11 @@
 .wk-cont {
-  padding: 20px 20px;
+  padding: 30px 30px;
 }
 .wk {
   display: flex;
 }
 .wk-text {
-  padding: 0 20px;
+  padding: 0 30px;
   text-align: center;
   font-size: 48px;
   font-weight: 600;
@@ -25,10 +25,22 @@
   font-weight: 600;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #f40469;
+
 }
 .wk-tx {
   font-size: 16px;
-  padding: 20px;
+  padding: 35px ;
   text-align: center;
-  margin-left: -90px;
+  margin-left: -160px;
+}
+
+@media (max-width:375px) {
+  .wk{
+    flex-direction: column;
+  }
+  .wk-box {
+    height: 360px;
+    width: 188px;
+    margin-left: 140px;
+  }
 }
