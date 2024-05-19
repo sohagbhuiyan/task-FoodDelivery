@@ -29,7 +29,6 @@ const Resturant = () => {
                   <MdOutlineFastfood /> <LiaDollarSignSolid /> 9.99 Delivery Fee
                 </p>
                 <p className="time">
-                  {" "}
                   <MdAccessTime />
                   10-15 mins
                 </p>

@@ -2,22 +2,34 @@
   padding: 0 40px;
 }
 .textt {
-  font-size: 19px;
+  font-size: 15px;
   font-weight: 600;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.details{
+.details {
   display: flex;
   align-items: center;
 }
-
+.span {
+  margin-top: -20px;
+  margin-bottom: 25px;
+  display: flex;
+  font-size: 18px;
+}
+.time {
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+}
 .titl {
   display: flex;
   justify-content: space-between;
   padding: 0 3px;
+  gap: 20px;
+  font-size: 20px;
 }
 .tir {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 600;
 }
 .left1 {
@@ -43,15 +55,7 @@
   font-weight: 600;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.span {
-  display: flex;
-  align-items: center;
-  font-size: 18px;
-}
-.time {
-  align-items: center;
-  padding: 0 50px;
-}
+
 @media (max-width: 425px) {
   .containerr {
     margin: 190px 20px;
@@ -66,19 +70,45 @@
   .rightt {
     flex-direction: column;
   }
+  .details {
+    display: flex;
+    align-items: center;
+  }
+  .span {
+    margin-top: -20px;
+    margin-bottom: 25px;
+    display: flex;
+    font-size: 18px;
+  }
+  .time {
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+  }
 }
 @media (max-width: 375px) {
   .containerr {
     margin: 180px 20px;
   }
-  .lef-pic {
-    height: 400px;
-    width: 250px;
-  }
+
   .left1 {
     flex-direction: column;
   }
   .rightt {
     flex-direction: column;
+  }
+  .details {
+    display: flex;
+    align-items: center;
+  }
+  .span {
+    margin-top: -20px;
+    margin-bottom: 25px;
+    display: flex;
+    font-size: 13px;
+  }
+  .time {
+    display: flex;
+    align-items: center;
   }
 }
