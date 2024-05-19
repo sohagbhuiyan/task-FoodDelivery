@@ -40,6 +40,56 @@
     color: 
     #FFFFFF;
 }
+@media (max-width: 425px) {
+    .banner {
+     
+        margin-top: -100px;
+        margin-left: -20px;
+        height: 320px;
+        width: 850px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:85%;
+    }
+    .bn-text{
+        position: relative;
+        bottom: -50px;
+        font-size: 28px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+        height: 128px;
+        width: 475px;
+      padding:10px 55px;
+
+    }
+    .bn-btn{
+        height: 38px;
+        width:160px;
+        background-color: 
+        #283646;
+        color: 
+        #FFFFFF;
+        font-size:13px;
+        text-align: center;
+        border: none;
+        border-radius: 50px;
+     
+    }
+    .bn-bnn{
+        margin-left: -50px;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+      
+    }
+    .brows{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 14px;
+        color: 
+        #FFFFFF;
+    }
+}
+
 @media (max-width: 375px) {
     .banner {
         margin-top: -150px;
