@@ -22,13 +22,11 @@
 }
 @media (max-width: 425px) {
   .nav {
-    gap: 425px;
-    padding: 0px 100px;
+    padding: 0px 70px;
   }
 }
 @media (max-width: 375px) {
   .nav {
-    gap: 100px;
     padding: 0 30px;
   }
   .food {
@@ -37,7 +35,6 @@
 }
 @media (max-width: 320px) {
   .nav {
-    gap: 70px;
     padding: 0 20px;
   }
 }

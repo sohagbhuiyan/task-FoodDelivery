@@ -55,6 +55,58 @@
   font-weight: 600;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+@media (max-width: 1048px) {
+  .containerr {
+    margin: 20px 20px;
+  }
+
+  .left1 {
+    flex-direction: column;
+  }
+  .rightt {
+    flex-direction: column;
+  }
+  .details {
+    display: flex;
+  }
+  .span {
+    margin-top: -20px;
+    margin-bottom: 25px;
+    display: flex;
+    font-size: 18px;
+  }
+  .time {
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .containerr {
+    margin: 20px 20px;
+  }
+
+  .left1 {
+    flex-direction: column;
+  }
+  .rightt {
+    flex-direction: column;
+  }
+  .details {
+    display: flex;
+  }
+  .span {
+    margin-top: -20px;
+    margin-bottom: 25px;
+    display: flex;
+    font-size: 18px;
+  }
+  .time {
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+  }
+}
 
 @media (max-width: 425px) {
   .containerr {
@@ -72,7 +124,6 @@
   }
   .details {
     display: flex;
-    align-items: center;
   }
   .span {
     margin-top: -20px;
