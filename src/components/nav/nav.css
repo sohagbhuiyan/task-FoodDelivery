@@ -1,40 +1,37 @@
-@import url("https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap");
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 90px;
+  padding: 0px 50px;
+  line-height: 48px;
+  margin-bottom: -40px;
 }
 .food {
   margin: 0;
-  font-size: 32px;
-  line-height: 48px;
-  font-family: "Jaro", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
+  font-size: 36px;
+  font-weight: 700;
   font-style: normal;
   color: #f40469;
 }
 .sign {
-  font-size: 1.2rem;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
   cursor: pointer;
 }
-@media (max-width: 425px) {
+@media (max-width: 600px) {
+  .nav {
+    padding: 0px 20px;
+  }
+}
+@media (max-width:1000px) and( min-width:602px) {
+  .nav {
+    padding: 0px 50px;
+  }
+}
+@media (min-width: 1200px) {
   .nav {
     padding: 0px 70px;
   }
 }
-@media (max-width: 375px) {
-  .nav {
-    padding: 0 30px;
-  }
-  .food {
-    font-size: 20px;
-  }
-}
-@media (max-width: 320px) {
-  .nav {
-    padding: 0 20px;
-  }
-}
+
+

@@ -32,11 +32,11 @@ const LastBaner = () => {
         <MdOutlineKeyboardArrowRight />
       </div>
       <div className="lb-logo">
-        <img src={lg1} alt="" />
-        <img src={lg2} alt="" />
-        <img src={lg3} alt="" />
-        <img src={lg4} alt="" />
-        <img src={lg5} alt="" />
+        <img src={lg1} alt="" className="lg"/>
+        <img src={lg2} alt="" className="lg" />
+        <img src={lg3} alt="" className="lg"/>
+        <img src={lg4} alt="" className="lg"/>
+        <img src={lg5} alt="" className="lg" />
       </div>
     </div>
   );

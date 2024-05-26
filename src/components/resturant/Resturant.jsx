@@ -24,7 +24,7 @@ const Resturant = () => {
             <img src={pic2} className="lef-pic" />
             <div className="detal ">
               <p className="rname">Resturant name</p>
-              <span className="span">
+              <div className="span">
                 <p className="details">
                   <MdOutlineFastfood /> <LiaDollarSignSolid /> 9.99 Delivery Fee
                 </p>
@@ -32,15 +32,15 @@ const Resturant = () => {
                   <MdAccessTime />
                   10-15 mins
                 </p>
-              </span>
+              </div>
             </div>
           </div>
           <div className="rightt">
             <div className="right1">
-              <img src={pic3} className="" />
+              <img src={pic3} className="r-pic" />
               <div className="detal">
                 <p className="rname">Resturant name</p>
-                <span className="span">
+                <div className="span">
                   <p className="details">
                     <MdOutlineFastfood /> <LiaDollarSignSolid /> 9.99 Delivery
                     Fee
@@ -50,12 +50,12 @@ const Resturant = () => {
                     <MdAccessTime />
                     10-15 mins
                   </p>
-                </span>
+                </div>
               </div>
-              <img src={pic4} className="hotel-pic" />
+              <img src={pic4} className="r-pic" />
               <div className="detal">
                 <p className="rname">Resturant name</p>
-                <span className="span">
+                <div className="span">
                   <p className="details">
                     <MdOutlineFastfood /> <LiaDollarSignSolid /> 9.99 Delivery
                     Fee
@@ -65,14 +65,14 @@ const Resturant = () => {
                     <MdAccessTime />
                     10-15 mins
                   </p>
-                </span>
+                </div>
               </div>
             </div>
             <div className="right2">
-              <img src={pic5} className="hotel-pic" />
+              <img src={pic5} className="r-pic" />
               <div className="detal">
                 <p className="rname">Resturant name</p>
-                <span className="span">
+                <div className="span">
                   <p className="details">
                     <MdOutlineFastfood /> <LiaDollarSignSolid /> 9.99 Delivery
                     Fee
@@ -82,12 +82,12 @@ const Resturant = () => {
                     <MdAccessTime />
                     10-15 mins
                   </p>
-                </span>
+                </div>
               </div>
-              <img src={pic6} className="hotel-pic" />
+              <img src={pic6} className="r-pic" />
               <div className="detal">
                 <p className="rname">Resturant name</p>
-                <span className="span">
+                <div className="span">
                   <p className="details">
                     <MdOutlineFastfood /> <LiaDollarSignSolid /> 9.99 Delivery
                     Fee
@@ -97,7 +97,7 @@ const Resturant = () => {
                     <MdAccessTime />
                     10-15 mins
                   </p>
-                </span>
+                </div>
               </div>
             </div>
           </div>

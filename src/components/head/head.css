@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
 .background-container {
   position: relative;
-  top: -48px;
-  height: 540px;
-
+  height: 504px;
   background-image: url("../../assets/1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: -65px;
 }
 .text-field {
   position: relative;
@@ -15,9 +16,9 @@
 }
 .text {
   color: #ffffff;
-  font-size: 48px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
 }
 .btn {
   position: relative;
@@ -32,7 +33,7 @@
   padding: 0 22px;
 }
 .label {
-  font-size: 18px;
+  font-size: 20px;
   padding: 0px 5px;
 }
 .rec {
@@ -40,7 +41,7 @@
 }
 .search {
   border: none;
-  font-size: 15px;
+  font-size: 22px;
   outline: none;
 }
 .button {
@@ -49,41 +50,67 @@
   border-top-right-radius: 35px;
   background-color: #ff006e;
   color: #ffffff;
-  font-size: 16px;
-  padding: 19px 53px;
+  font-size: 18px;
+  padding: 19px 30px;
   cursor: pointer;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 600px) {
   .background-container {
-    background-image: url("../../assets/1.png");
     height: 450px;
-    background-position: 69%;
-    top: -15px;
+    background-position: 70%;
+    margin-top: 40px;
   }
   .text {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 18px;
     align-items: center;
+  }
+  .search{
+    width: 90%;
+  }
+
+  .label {
+    font-size: 13px;
+    padding: 0px 5px;
+  }
+  .btn {
+    position: relative;
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    display:inline-flex;
+    border-radius: 50px;
+    align-items: center;
+    width: 90%;
+  }
+  .loc {
+    padding: 0 2px;
+  }
+}
+
+@media (max-width:1000px) and( min-width:602px) {
+  .background-container {
+    height: 490px;
+    background-position: 80%;
+    margin-top: 40px;
+  }
+  .text {
+    font-size: 28px;
   }
   .text-field {
     top: 145px;
     text-align: center;
   }
   .btn {
-    position: relative;
-    left: 3px;
     align-items: center;
-    background-color: #ffffff;
     height: 45px;
-    border-radius: 50px;
-    align-items: center;
   }
   .loc {
     padding: 0 2px;
   }
   .label {
-    font-size: 8px;
+    font-size:8px;
     padding: 0px 2px;
   }
   .search {
@@ -102,111 +129,12 @@
     cursor: pointer;
   }
 }
-
-@media (max-width: 375px) {
-  .background-container {
-    background-image: url("../../assets/1.png");
-    height: 450px;
-    background-position: 69%;
-    top: -15px;
-  }
+@media (min-width: 1520px) {
   .text {
-    color: #ffffff;
-    font-size: 16px;
-    align-items: center;
-  }
-  .text-field {
-    top: 145px;
-    text-align: center;
-    display:inline-block;
-    padding: 2px;
-  }
-  .btn {
-    position: relative;
-    display: flex;
-    align-items: center;
-    background-color: #ffffff;
-    height: 45px;
-    border-radius: 50px;
-    align-items: center;
-  }
-  .loc {
-    padding: 0 1px;
-  }
-  .label {
-    font-size: 8px;
-    padding: 0px 5px;
-  }
-  .search {
-    border: none;
-    outline: none;
-   
-  
+    font-size: 68px;
   }
   .button {
-    border: none;
-    border-bottom-right-radius: 35px;
-    border-top-right-radius: 35px;
-    background-color: #ff006e;
-    color: #ffffff;
-    font-size: 9px;
-    padding: 18px 25px;
-    cursor: pointer;
-    
+    margin-left: 150px;
   }
 }
 
-@media (max-width: 320px) {
-  .background-container {
-    background-image: url("../../assets/1.png");
-    height: 450px;
-    background-position: 69%;
-    top: -15px;
-  }
-  .text {
-    color: #ffffff;
-    font-size: 16px;
-    align-items: center;
-  }
-  .search {
-    border: none;
-    outline: none;
-   display: flex;
-   min-width: 40%;
-  
-  }
-  .text-field {
-    top: 145px;
-    text-align: center;
-  }
-  .btn {
-    position: relative;
-    display: flex;
-    align-items: center;
-    background-color: #ffffff;
-    height: 45px;
-    border-radius: 50px;
-    align-items: center;
-    max-width:60%;
-  }
-  .loc {
-    padding: 0 1px;
-  }
-  .label {
-    font-size: 8px;
-    padding: 0px 5px;
-  }
-
-  .button {
-    border: none;
-    border-bottom-right-radius: 35px;
-    border-top-right-radius: 35px;
-    background-color: #ff006e;
-    color: #ffffff;
-    font-size: 9px;
-    padding: 18px 14px;
-    cursor: pointer;
-    
-  }
-
-}

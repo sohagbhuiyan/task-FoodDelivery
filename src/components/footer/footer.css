@@ -1,11 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+.footer{
+  background-color: #f8f9fa;
+  background-image: url("../../assets/ft.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size:80%;
+
+}
 .fooddb {
   margin: 0;
   font-size: 30px;
   line-height: 48px;
-  font-family: "Jaro", sans-serif;
+  font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   color: #f40469;
   margin-right: 150px;
@@ -16,219 +24,118 @@
   gap: 35px;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Jost", sans-serif;
 }
 .ft-rw1 {
   display: flex;
+  font-family: "Jost", sans-serif;
+  font-size: 18;
+  cursor: pointer;
+  transition: font-size 0.3s ease-in-out;
+}
+.ft-rw1:hover {
+  color: #72163cfa;
+  font-size: 18.5px;
 }
 .foot-row2 {
-    height: 240px;
-    font-size: 14px;
-    display: flex;
-  background-color: 
-  #F8F9FA;
-  background-image: url("../../assets/ft.png");
-  background-repeat: no-repeat;
-  background-size: 1350px 300px;
-  background-position: bottom;
+  height: 240px;
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  display: flex;
+}
+.fl {
+  display: flex;
+}
+.ft-col1 {
+  padding: 10px 195px;
+}
+.ft-col2 {
+  padding: 10px 20px;
+}
+.ft-col3 {
+  padding: 10px 20px;
+}
+.ft-col4 {
+  padding: 10px 20px;
+}
 
-}
-.ft-col1{
-    padding: 30px 115px;
-}
-.fl{
-    display: flex;
-    padding: 30px 70px;
-    gap: 90px;
-}
 
-@media (max-width:725px) {
+@media  (min-width: 602px)and (max-width: 1000px) {
+  .footer{
+    background-image: url("../../assets/ft.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:cover;
+  }
   .fooddb {
-      margin: 0;
-      padding: 5px;
-      font-size: 18px;
-      line-height: 20px;
-      font-family: "Jaro", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 400;
-      font-style: normal;
-      color: #f40469;
-      margin-right: 5px;
-    }
-    .foot-row1 {
-      display: flex;
-      padding: 5px 20px;
-      gap: 15px;
-      font-size: 15px;
-      font-weight: 600;
-      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    }
-    .ft-rw1 {
-      display: flex;
-    }
-    .foot-row2 {
-      padding: 5px 10px;
-        display: flex;
-      background-color: 
-      #F8F9FA;
-      background-image: url("../../assets/ft.png");
-      background-repeat: no-repeat;
-      background-size:600px 250px;
-      background-position: bottom;
-
-      margin-left:110px;
-      height: 180px;
-      font-size: 12px;
-
-    }
-    .ft-col1{
-        padding: 5px 10px;
-    }
-    .fl{
-        display: flex;
-        padding: 5px 20px;
-        gap: 10px;
-    }
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  .foot-row1 {
+    display: flex;
+    padding: 5px 55px;
+    gap: 20px;
+    font-size: 18px;
+  }
+  .ft-rw1 {
+    display: flex;
+  }
+  .foot-row2 {
+    padding: 5px 10px;
+    display: flex;
+    background-color: #f8f9fa;
+    margin-left: 80px;
+    height: 180px;
+    font-size: 13px;
+  }
+  .ft-col1 {
+    padding: 5px 10px;
+  }
+  .fl {
+    display: flex;
+    padding: 5px 25px;
+    gap: 10px;
+  }
 }
 
-@media (max-width:425px) {
+@media (max-width: 600px) {
+  .footer{
+    background-size:100%;
+    background-position: bottom;
+  }
   .fooddb {
-      margin: 0;
-      padding: 5px;
-      font-size: 14px;
-      line-height: 20px;
-      font-family: "Jaro", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 400;
-      font-style: normal;
-      color: #f40469;
-      margin-right: 5px;
-    }
-    .foot-row1 {
-      display: flex;
-      padding: 5px 8px;
-      gap: 15px;
-      font-size: 12px;
-      font-weight: 600;
-      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    }
-    .ft-rw1 {
-      display: flex;
-    }
-    .foot-row2 {
-      padding: 5px 10px;
-        display: flex;
-      background-color: 
-      #F8F9FA;
-      background-image: url("../../assets/ft.png");
-      background-repeat: no-repeat;
-      background-size: 430px 100px;
-      background-position: bottom;
-      height: 180px;
-      font-size: 12px;
-
-    }
-    .ft-col1{
-        padding: 5px 10px;
-    }
-    .fl{
-        display: flex;
-        padding: 5px 20px;
-        gap: 10px;
-    }
+    margin: 0;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .foot-row1 {
+    padding: 20px;
+    gap: 8px;
+    font-size: 12px;
+  }
+  .ft-rw1 {
+    cursor: pointer;
+    transition: font-size 0.3s ease-in-out;
+  }
+  .ft-rw1:hover {
+    color: #72163cfa;
+    font-size: 12.5px;
+  }
+  .foot-row2 {
+    font-size: 12px;
+  }
+  .ft-col1 {
+    padding: 5px 30px;
+  }
+  .ft-col2 {
+    padding: 5px 5px;
+  }
+  .ft-col3 {
+    padding: 5px 5px;
+  }
+  .ft-col4 {
+    padding: 5px 5px;
+  }
 }
-
-@media (max-width:375px) {
-    .fooddb {
-        margin: 0;
-        padding: 5px;
-        font-size: 13px;
-        line-height: 20px;
-        font-family: "Jaro", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        color: #f40469;
-        margin-right: 5px;
-      }
-      .foot-row1 {
-        display: flex;
-        padding: 5px 5px;
-        gap: 10px;
-        font-size: 11px;
-        font-weight: 600;
-        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-      }
-      .ft-rw1 {
-        display: flex;
-      }
-      .foot-row2 {
-        padding: 5px 15px;
-          display: flex;
-        background-color: 
-        #F8F9FA;
-        background-image: url("../../assets/ft.png");
-        background-repeat: no-repeat;
-        background-size: 380px 100px;
-        background-position: bottom;
-        height: 180px;
-        font-size: 12px;
-
-      }
-      .ft-col1{
-          padding: 5px 10px;
-      }
-      .fl{
-          display: flex;
-          padding: 5px 20px;
-          gap: 10px;
-      }
-}
-@media (max-width:320px) {
-    .fooddb {
-        margin: 0;
-        padding: 5px;
-        font-size: 12px;
-        line-height: 15px;
-        font-family: "Jaro", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        color: #f40469;
-        margin-right: 5px;
-      }
-      .foot-row1 {
-        display: flex;
-        padding: 3px 3px;
-        gap: 7px;
-        font-size: 11px;
-        font-weight: 600;
-        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-      }
-      .ft-rw1 {
-        display: flex;
-      }
-      .foot-row2 {
-        padding: 0px 15px;
-          display: flex;
-        background-color: 
-        #F8F9FA;
-        background-image: url("../../assets/ft.png");
-        background-repeat: no-repeat;
-        background-size: 380px 100px;
-        background-position: bottom;
-        height: 180px;
-        width: 345px;
-        font-size: 11px;
-
-      }
-      .ft-col1{
-          padding: 5px 10px;
-      }
-      .fl{
-          display: flex;
-          padding: 5px 20px;
-          gap: 10px;
-      }
-}
-

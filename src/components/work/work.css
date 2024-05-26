@@ -1,54 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
 .wk-cont {
-  padding: 30px 30px;
+  padding: 5px 180px;
+  text-align: center;
 }
 .wk {
   display: flex;
 }
 .wk-text {
-  padding: 0 30px;
   text-align: center;
   font-size: 48px;
   font-weight: 600;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Jost", sans-serif;
   color: #f40469;
 }
 .wk-box {
-  background-image: url("../../assets/uj.png");
-  background-repeat: no-repeat;
-  height: 360px;
-  width: 288px;
-  margin-left: 180px;
+padding: 10px 10px;
 }
 .wk-titl {
   font-size: 18px;
   font-weight: 600;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Jost", sans-serif;
   color: #f40469;
-
+}
+.w-im {
+  background-image: url("../../assets/uj.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-items: center;
 }
 .wk-tx {
   font-size: 16px;
-  padding: 35px ;
   text-align: center;
-  margin-left: -160px;
+  width: 76%;
+  padding: 0 30px;
 }
 
-@media (max-width:900px) {
-  .wk{
-    flex-direction: column;
-    padding: 20px 20px; 
+@media (max-width: 600px) {
+  .wk-cont {
+    padding: 2px 20px;
   }
-
-}
-
-@media (max-width:425px) {
-  .wk{
+  .wk {
     flex-direction: column;
+    padding: 0px 10px;
+    width: 90%;
+  }
+  .wk-text {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    color: #f40469;
   }
   .wk-box {
-    height: 360px;
-    width: 188px;
-    margin-left: 140px;
+  padding: 2px 2px;
+  }
+  .wk-titl {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    color: #f40469;
+  }
+  .w-im {
+    background-image: url("../../assets/uj.png");
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: center;
+  
+  }
+  .wk-tx {
+    font-size: 15px;
+    text-align: center;
+    width: 77%;
+
+  
+  }
+}
+
+@media ( min-width:602px) and (max-width:1000px){
+  .wk-cont {
+    padding: 5px 10px;
+    text-align: center;
+  
+  }
+  .wk {
+    display: flex;
+  }
+  .wk-text {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    color: #f40469;
+  }
+  .wk-box {
+  padding: 10px 10px;
+  }
+  .wk-titl {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    color: #f40469;
+  }
+  .w-im {
+    background-image: url("../../assets/uj.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-items: center;
+  }
+  .wk-tx {
+    font-size: 16px;
+    text-align: center;
+    width: 86%;
+    padding: 0 20px;
   }
 }
