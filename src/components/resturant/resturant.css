@@ -57,28 +57,28 @@
 }
 @media (max-width: 600px) {
   .containerr {
-    padding: 10px 30px;
+    padding: 10px 20px;
   }
   .titl {
-    padding: 0 40px;
+    padding: 0 10px;
   }
   .textt {
     font-size: 16px;
   }
   .tir {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
   }
   .lef-pic {
     padding: 10px 70px;
-    width: 60%;
+    width: 67%;
   }
   .r-pic {
     padding: 0 50px;
-    width: 70%;
+    width: 80%;
   }
   .rname {
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
   }
   .left1 {
@@ -104,7 +104,7 @@
   }
 }
 
-@media ( min-width:610px) and (max-width: 1100px)  {
+@media (min-width: 605px) and (max-width: 1100px) {
   .rname {
     font-size: 30px;
     text-align: center;
@@ -112,6 +112,18 @@
   .left1 {
     flex-direction: column;
     padding: 0 90px;
+  }
+  .lef-pic {
+    padding: 10px 90px;
+    width: 84%;
+  }
+  .r-pic {
+    padding: 0 50px;
+    width: 95%;
+  }
+  .rname {
+    font-size: 25px;
+    text-align: center;
   }
   .rightt {
     flex-direction: column;
@@ -123,7 +135,7 @@
     margin-top: -20px;
     margin-bottom: 5px;
     display: flex;
-    font-size: 20px;
+    font-size: 19px;
     margin-left: 65px;
   }
   .time {
@@ -132,4 +144,3 @@
     align-items: center;
   }
 }
-

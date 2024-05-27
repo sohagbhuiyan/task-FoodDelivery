@@ -1,15 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import "./lastBanner.css";
-import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { MdOutlineKeyboardArrowLeft ,MdOutlineKeyboardArrowRight } from "react-icons/md";
 import cir from "../../assets/cir.png";
 import lg1 from "../../assets/lg1.png";
 import lg2 from "../../assets/lg2.png";
 import lg3 from "../../assets/lg3.png";
 import lg4 from "../../assets/lg4.png";
 import lg5 from "../../assets/lg5.png";
+const testimonials = [
+  {
+    text: "In the artist's own experience, of course, art is fundamentally indefinable, unsayable.",
+    author: "Tim Oliver, ordered Burger Extracheese"
+  },
+  // Add more testimonials if needed
+];
 
 const LastBaner = () => {
+
+const [currentIndex, setCurrentIndex] = useState(0);
+
+const handlePrevClick =()=>{
+  const newIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+  setCurrentIndex(newIndex);
+}
+const handleNextClick = () => {
+  const newIndex = (currentIndex + 1) % testimonials.length;
+  setCurrentIndex(newIndex);
+};
   return (
     <div className="lb-contain">
       <p className="head">What our food lovers said</p>
@@ -19,7 +36,7 @@ const LastBaner = () => {
         the soul, something inherently mysterious in the forms it takes
       </p>
       <div className="lb-pos">
-        <MdOutlineKeyboardArrowLeft />
+        <MdOutlineKeyboardArrowLeft  onClick={handlePrevClick} className="arrow"/>
         <div className="lb-banner">
           <img src={cir} alt="" className="lb-img" />
           <p className="lb-tit">
@@ -29,7 +46,7 @@ const LastBaner = () => {
           <br />
           <p className="lb-red">Tim Oliver, ordered Burger Extracheese</p>
         </div>
-        <MdOutlineKeyboardArrowRight />
+        <MdOutlineKeyboardArrowRight onClick={handleNextClick} className="arrow" />
       </div>
       <div className="lb-logo">
         <img src={lg1} alt="" className="lg"/>

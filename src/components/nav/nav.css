@@ -21,9 +21,16 @@
 @media (max-width: 600px) {
   .nav {
     padding: 0px 20px;
+   
+  }
+  .food{
+    font-size: 25px;
+  }
+  .sign{
+    font-size: 18px;
   }
 }
-@media (max-width:1000px) and( min-width:602px) {
+@media  ( min-width:602px)and (max-width:1000px) {
   .nav {
     padding: 0px 50px;
   }
